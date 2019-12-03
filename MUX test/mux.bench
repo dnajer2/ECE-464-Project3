@@ -1,0 +1,7 @@
+INPUT(C)
+INPUT(B)
+INPUT(A)
+
+OUTPUT(D)
+
+D=MUX(A,B,C)

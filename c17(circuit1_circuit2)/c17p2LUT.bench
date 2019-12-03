@@ -1,0 +1,27 @@
+INPUT(1)
+INPUT(0)
+INPUT(E)
+INPUT(D)
+INPUT(C)
+INPUT(B)
+
+OUTPUT(S)
+
+X=MUX(1,1, E)
+F=MUX(1,1, E)
+G=MUX(1,1, E)
+H=MUX(1,1, E)
+I=MUX(1,1, E)
+J=MUX(1,1, E)
+K=MUX(1,1, E)
+L=MUX(1,1, E)
+
+M=MUX(X,F,D)
+N=MUX(G,H,D)
+O=MUX(I,J,D)
+P=MUX(K,L,D)
+
+Q=MUX(M,N,C)
+R=MUX(O,P,C)
+
+S=MUX(Q,R,B)

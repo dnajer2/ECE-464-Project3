@@ -1,0 +1,23 @@
+INPUT(A)
+INPUT(B)
+
+OUTPUT (C) 
+
+D=DFF(F)
+E=DFF(G)
+F=OR(Q, L, M)
+
+J=NOT(D)
+H=NOT(A)
+I=NOT(B)
+K=NOT(E)
+Q=AND(J,A)
+L=AND(D,K)
+M=AND(J,E,B)
+N=AND(J,E,H)
+O=AND(J,B,H)
+P=AND(A,I,K)
+
+G=OR(N,O,L,P)
+
+C=AND(D,E)

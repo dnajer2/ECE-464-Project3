@@ -1,0 +1,16 @@
+INPUT(1)
+INPUT(0)
+INPUT(C)
+INPUT(B)
+INPUT(A)
+
+OUTPUT(J)
+
+D=MUX(0,1,C)
+E=MUX(0,0,C)
+F=MUX(0,1,C)
+G=MUX(1,1,C)
+
+H=MUX(D,E, B)
+I=MUX(F,G,B)
+J=MUX(H,I,A)
